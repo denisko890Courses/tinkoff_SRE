@@ -12,6 +12,9 @@ Clone oncall Repository:
 git clone -b v2.0.1 https://github.com/linkedin/oncall.git
 ```
 
+!!!
+Don't forget enable Debug mode if you are using Docker-Compose. View file oncall/config/config.docker.yaml
+
 Fix problem with incorrect string for DB(Tested on Ubuntu 20.04 with sed 4.7):
 
 ```
